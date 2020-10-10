@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/sunda_front/static/css/main.5f361e03.chunk.css",
+    "main.js": "/sunda_front/static/js/main.8b82034f.chunk.js",
+    "main.js.map": "/sunda_front/static/js/main.8b82034f.chunk.js.map",
+    "runtime-main.js": "/sunda_front/static/js/runtime-main.30d1f525.js",
+    "runtime-main.js.map": "/sunda_front/static/js/runtime-main.30d1f525.js.map",
+    "static/js/2.1d7c74fd.chunk.js": "/sunda_front/static/js/2.1d7c74fd.chunk.js",
+    "static/js/2.1d7c74fd.chunk.js.map": "/sunda_front/static/js/2.1d7c74fd.chunk.js.map",
+    "index.html": "/sunda_front/index.html",
+    "precache-manifest.8b415d6b76996e829a6027f5a143ddf1.js": "/sunda_front/precache-manifest.8b415d6b76996e829a6027f5a143ddf1.js",
+    "service-worker.js": "/sunda_front/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/sunda_front/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.1d7c74fd.chunk.js.LICENSE.txt": "/sunda_front/static/js/2.1d7c74fd.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/sunda_front/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.30d1f525.js",
+    "static/js/2.1d7c74fd.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.8b82034f.chunk.js"
+  ]
+}
