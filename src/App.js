@@ -1,25 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
+import React from "react";
+import { HashRouter, Route } from "react-router-dom";
+
+import Navigation from "./components/Navigation";
+import Landing from "./routes/Landing";
+import MainTimeline from "./routes/MainTimeline";
+
 import './App.css';
 
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  return ( 
+    
+    <HashRouter>
+      
+      <Route path="/" exact={true} component={Landing}/>
+      <Route path="/timeline" exact={true} component={MainTimeline} />
+    </HashRouter>
   );
 }
 

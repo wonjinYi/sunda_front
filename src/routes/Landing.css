@@ -1,0 +1,44 @@
+
+html, body {
+    height : 100%;
+}
+
+body {
+    display : flex;
+    justify-content: center;
+    align-items : center;
+
+    font-weight : 700;
+}
+
+
+#Landing-main {
+    height : 100%;
+    display : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items : center;
+
+    text-align : center;
+}
+
+#btn {
+    display : flex;
+}
+
+
+.btn-landing {
+    display : block;
+    min-width : 200px;
+
+    margin : 10px;
+}
+
+@media (max-width : 768px){
+    #nav {
+        flex-direction : column;
+    }
+    .btn-landing {
+        width : 95%;
+    }
+}
