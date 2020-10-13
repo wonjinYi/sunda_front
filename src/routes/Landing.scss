@@ -1,0 +1,55 @@
+#Landing {
+    @import 'commonStyle.scss';
+
+    height : 100vh;
+
+    display : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items : center;
+
+    text-align : center;
+
+    #btn {
+        display : flex;
+    }
+
+    .btn-landing {
+        display : block;
+        min-width : 200px;
+    
+        margin : 10px;
+    }   
+
+    .btn-gototimeline {
+        transition : all 0.5s;
+        &:hover {
+            background-color : $sunda-pink;
+            color : white;
+        }
+    }
+
+    /*
+    .btn-signup {
+        transition : all 0.5s;
+        &:hover {
+            background-color : white;
+            color : $sunda-pink;
+        }
+    }
+    */
+
+    
+    
+    @media (max-width : 768px){
+        #btn {
+            flex-direction : column;
+        }
+        .btn-landing {
+            
+            width : 95%;
+
+            
+        }
+    }
+}

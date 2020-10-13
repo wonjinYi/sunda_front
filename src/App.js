@@ -10,12 +10,12 @@ import './App.css';
 
 function App() {
   return ( 
-    
-    <HashRouter>
-      
-      <Route path="/" exact={true} component={Landing}/>
-      <Route path="/timeline" exact={true} component={MainTimeline} />
-    </HashRouter>
+    <div className="App">
+      <HashRouter>
+        <Route path="/" exact={true} component={MainTimeline}/>
+        <Route path="/landing" exact={true} component={Landing} />
+      </HashRouter>
+    </div>
   );
 }
 

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
+
+$sunda-pink : #FF8181;
+$sunda-grey : #7B7B7B;
+
+* {
+    color : $sunda-grey;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color : $sunda-grey;
+}
+
+.button-nofill {
+    padding : 10px;
+
+    border : 2px solid $sunda-pink;
+    background-color : white;
+    
+    color : $sunda-pink;
+}
+
+.button-fill {
+    padding : 10px;
+
+    border : 2px solid $sunda-pink;
+    background-color : $sunda-pink;
+    
+    color : white;
+}
+
+.highlight {
+    color : $sunda-pink;
+}
+
+.inline {
+    display : inline;
+}
