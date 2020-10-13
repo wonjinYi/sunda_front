@@ -1,0 +1,37 @@
+.nav {
+    @import '../global/commonStyle.scss';
+
+    display: flex;
+    border : 2px solid #FF8181;
+
+    .gnb, .logo, .search{
+        flex : none;
+    }
+    
+    .logo {
+        margin : auto 10px;
+        img{
+            height : 50px;
+        }
+    }
+    .gnb {
+        margin-left: auto;
+    }
+    
+    .search {
+        display: flex;
+        width: 20vw;
+        padding: 14px 0;
+    }
+    .search_button {
+        width: 37px;
+            border: 0;
+        background-color: #26a93a;
+    }
+    input{
+        flex: 1;
+        width: 322px;
+        height: 37px;
+        background-color: white;
+    }    
+}
