@@ -1,8 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import "./Navigation.scss";
 
 import Logo from "../img/sunda_logo.png";
-import Icon_search from "../img/icon/search.png";
+import Icon_search from "../img/icon/search_white.png";
 
 function Navigation() {
     return (
@@ -14,14 +16,14 @@ function Navigation() {
                     <option value="artist">Artist</option>
                     <option value="curator">Curator</option>
                 </select>
-                <input type="text" title="Search Awesome Curation" className="search_input"></input>
-                <button type="button" className="search_button">
+                <input type="text" placeholder="Search Awesome Curation" className="input"></input>
+                <button type="button" className="button">
                     <img src={Icon_search} alt="search button"></img>
                 </button>
             </div>
             <div className="menu">
-                <a>Sign up</a>
-                <a>Sign in</a>
+                <Link><div className="signup common-align">Sign up</div></Link>
+                <Link><div className="signin common-align">Sign in</div></Link>
             </div>
         </div>
     );
