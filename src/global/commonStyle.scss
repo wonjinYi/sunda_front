@@ -20,6 +20,12 @@ a {
     background-color : white;
     
     color : $sunda-pink;
+
+    transition : all 0.5s;
+    &:hover {
+        background-color: $sunda-pink;
+        color : white;
+    }
 }
 
 .button-fill {
@@ -29,6 +35,12 @@ a {
     background-color : $sunda-pink;
     
     color : white;
+
+    transition : all 0.5s;
+    &:hover {
+        background-color : white;
+        color : $sunda-pink;
+    }
 }
 
 .highlight {
