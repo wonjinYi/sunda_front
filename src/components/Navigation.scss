@@ -11,6 +11,11 @@
         flex : none;
     }
     
+    .icon {
+        width : 30px;
+        height : 30px;
+    }
+
     .logo {
         padding : 10px;
         margin : 0;
@@ -84,27 +89,22 @@
             }
 
             img {
-                width : 30px;
-                height : 30px;
+
             }
         } 
     } 
 
     .menu {
         display : flex;
-        
+        align-items : center;
         margin-left: auto;
         height : 70px;
         
-        .signup {
-            color : $sunda-pink;
+        .icon {
+            margin-right : 30px;
         }
-        .signin {
-            background-color : $sunda-pink;
-            color : white;
-        }
-
-        .common-align {
+        
+        .center-align {
             display : flex;
             align-items : center;
 

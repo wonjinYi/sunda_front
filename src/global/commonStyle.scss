@@ -44,6 +44,14 @@ a {
     }
 }
 
+.rect-nofill {
+    color : $sunda-pink;
+}
+.rect-fill {
+    background-color : $sunda-pink;
+    color : white;
+}
+
 .highlight {
     color : $sunda-pink;
 }

@@ -1,0 +1,36 @@
+.CreateNew {
+    @import '../global/commonStyle.scss';
+
+    display : flex;
+    flex-direction: column;
+
+    position : relative;
+    top : 70px;
+
+
+    border : 2px solid $sunda-pink;
+
+    .newblock {
+        border-bottom : 2px solid $sunda-pink;
+    }
+
+    .sunda-icon {
+            width : 30px;
+            height : auto;
+    
+            margin-right : 10px;
+    }
+        
+    }
+
+    .subcontainer {
+        display : flex;
+        justify-content : center;
+        align-items : center;
+        padding : 20px 20px;
+    }
+
+    h4{
+        margin:0;
+    }
+}
