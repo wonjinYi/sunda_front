@@ -4,7 +4,7 @@ import Navigation from '../components/Navigation';
 class MainTimeline extends React.Component{
     state = {
         loggedin : true,
-        username : "username",
+        username : "thisisverylongname",
         test : 123,
     };
 

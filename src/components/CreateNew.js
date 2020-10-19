@@ -1,4 +1,49 @@
-import React from 'react';
+import React from "react";
+import "./CreateNew.scss";
+
+import Icon_create from "../img/icon/create.png";
+import Icon_block from "../img/icon/block.png";
+import Icon_page from "../img/icon/page.png";
+
+class CreateNew extends React.Component{
+
+  componentDidMount() {
+    const createButton = document.getElementsByClassName('create-button')[0];
+    createButton.addEventListener("click", () => {
+      const createMenu = document.getElementsByClassName('create-menu')[0];
+      createMenu.classList.toggle('show');
+    })
+  }
+  
+
+  render() {
+    return (
+      <div className="CreateNew">
+        <div className="create-button">
+          <img src={Icon_create} className="icon" alt="crate"></img>
+        </div>
+        <div className="create-menu">
+          <div className="newblock subcontainer">
+            <img src={Icon_block} className="icon" alt="block"></img>
+            <h4>New Block</h4>
+          </div>
+          <div className="newpage subcontainer">
+            <img src={Icon_page} className="icon" alt="page"></img>
+            <h4>New Page</h4>
+          </div>
+        </div>
+  
+      </div>
+    );
+  }
+  
+}
+
+
+
+export default CreateNew;
+
+/*import React from 'react';
 import Button from '@material-ui/core/Button';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
@@ -36,26 +81,4 @@ export default function CreateNew() {
     </div>
   );
 }
-/*
-import React from "react";
-import "./CreateNew.scss";
-
-
-
-function CreateNew(){
-    return (
-        <div className="CreateNew">
-            <div className="newblock subcontainer">
-                <img src={Icon_block} className="sunda-icon" alt="block"></img>
-                <h4>New Block</h4>
-            </div>
-            <div className="newpage subcontainer">
-                <img src={Icon_page} className="sunda-icon" alt="page"></img>
-                <h4>New Page</h4>
-            </div>
-        </div>
-    );
-}
-
-export default CreateNew;
 */

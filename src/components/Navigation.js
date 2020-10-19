@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 //component
 import CreateNew from "./CreateNew";
 import ShowNoti from "./ShowNoti";
-import {Button, Menu, MenuItem} from '@material-ui/core';
+import UserMenu from "./UserMenu";
 
 //css
 import "./Navigation.scss";
@@ -49,11 +49,8 @@ class Navigation extends React.Component {
                     </div>
                     <div className="menu">
                         <CreateNew />
-                        <div>
-                            <img src={Icon_bell} className="icon" alt="notification"></img>
-                            <ShowNoti />
-                        </div>
-                        <h4 className="rect-fill center-align">{username}</h4>
+                        <ShowNoti />
+                        <UserMenu username={username} />
                     </div>
                 </div>
             );

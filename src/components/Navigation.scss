@@ -6,10 +6,6 @@
     display: flex;
     border-bottom : 2px solid #FF8181;
     align-items : center;
-
-    .gnb, .logo, .search{
-        flex : none;
-    }
     
     .icon {
         width : 30px;
@@ -96,16 +92,15 @@
         margin-left: auto;
         height : 70px;
         
-        .icon {
-            margin-right : 30px;
-        }
-        
         .center-align {
             display : flex;
             align-items : center;
 
             height : 100%;
             padding : 0 40px;
+        }
+        .CreateNew, .ShowNoti {
+            margin-right : 20px;
         }
     }
 }

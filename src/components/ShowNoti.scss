@@ -1,6 +1,17 @@
 .ShowNoti {
     @import '../global/commonStyle.scss';
 
+    .noti-contents {
+        border : 2px solid $sunda-pink;
+        position: absolute;
+        display : none;
+        
+        background-color : RGBA(255,255,255,0.8);
+    }
     
-
+    .show {
+        display : flex;
+        justify-content : center;
+        align-items : center;
+    }
 }
