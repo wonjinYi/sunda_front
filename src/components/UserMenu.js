@@ -5,11 +5,12 @@ import "./UserMenu.scss";
 class UserMenu extends React.Component{
 
   componentDidMount() {
+    const userMenu = document.getElementsByClassName('UserMenu')[0];
     const button = document.getElementsByClassName('user-button')[0];
+    const menu = document.getElementsByClassName('user-menu')[0];
     button.addEventListener("click", () => {
-      const menu = document.getElementsByClassName('user-menu')[0];
       menu.classList.toggle('show');
-    })
+    });
   }
   
 

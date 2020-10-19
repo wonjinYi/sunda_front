@@ -1,6 +1,7 @@
 .UserMenu {
     @import '../global/commonStyle.scss';
 
+    cursor : pointer;
     height : 100%;
     
     .user-button {
@@ -28,6 +29,9 @@
         align-items : center;
         padding : 20px 20px;
 
+        &:hover {
+            background-color : $sunda-semipink;
+        }
     }
 
     .show {

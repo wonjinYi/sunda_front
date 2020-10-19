@@ -1,6 +1,9 @@
 .ShowNoti {
     @import '../global/commonStyle.scss';
 
+    .noti-button {
+        cursor : pointer;
+    }
     .noti-contents {
         border : 2px solid $sunda-pink;
         position: absolute;
