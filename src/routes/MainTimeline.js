@@ -1,5 +1,10 @@
 import React from 'react';
+
 import Navigation from '../components/Navigation';
+import SundaItem from "../components/SundaItem";
+
+import "./MainTimeline.scss";
+
 
 class MainTimeline extends React.Component{
     state = {
@@ -13,10 +18,16 @@ class MainTimeline extends React.Component{
         const { loggedin, username } = this.state;
 
         return (
-            <div>
+            <div className="MainTimeline">
                 <Navigation loggedin={loggedin} username={username}/>
-                <h1>Here is MainTImeline dd {this.state.loggedin}</h1>
-                <h2>{this.state.loggedin}d</h2>
+                <div className="items">
+                    <SundaItem itemType="block" title="달과달의소리" artist="moremi" curator="jjoriping" comment="아, lnx적분하고싶다" createdAt="01:53" />
+                    <SundaItem itemType="block" title="달과달의소리" artist="moremi" curator="jjoriping" comment="아, lnx적분하고싶다" createdAt="01:53" />
+                    <SundaItem itemType="block" title="달과달의소리" artist="moremi" curator="jjoriping" comment="아, lnx적분하고싶다" createdAt="01:53" />
+                    <SundaItem itemType="block" title="달과달의소리" artist="moremi" curator="jjoriping" comment="아, lnx적분하고싶다" createdAt="01:53" />
+                    <SundaItem itemType="block" title="달과달의소리" artist="moremi" curator="jjoriping" comment="아, lnx적분하고싶다" createdAt="01:53" />
+                </div>
+                
             </div>
            
         ); 
