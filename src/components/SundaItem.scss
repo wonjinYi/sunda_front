@@ -1,0 +1,53 @@
+.SundaItem{
+    @import '../global/commonStyle.scss';
+
+    margin : 10px;
+    display : flex;
+    align-items : flex-end;
+    
+    .description {
+        margin-left : 10px;
+        //align-items : center;
+
+        width : 600px;
+
+
+        .created-at {
+            margin : 0;
+            text-align : right;
+            color : $sunda-semigrey;
+        }
+
+        .in-box {
+            //display : flex;
+            //flex-direction : column;
+            //align-items : center;
+            border : 2px solid $sunda-pink;
+            padding : 10px;
+
+            .item-info {
+                display : flex;
+                font-size : 18px;
+
+                .title {
+                    margin : 0 10px 0 0;
+                    padding : 5px;
+                }
+                .artist {
+                    margin : 0;
+                    padding : 5px;
+                }
+            }
+            .curator-info {
+                font-size : 18px;
+                margin : 10px 0;
+            }
+            .curator-comment {
+                margin-top : 10px;
+                margin-bottom : 0;
+            }
+        }
+    }
+    
+}
+
