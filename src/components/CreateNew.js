@@ -20,16 +20,16 @@ class CreateNew extends React.Component{
     return (
       <div className="CreateNew">
         <div className="create-button">
-          <img src={Icon_create} className="icon" alt="crate"></img>
+          <img src={Icon_create} className="icon" alt="create"></img>
         </div>
         <div className="create-menu">
           <div className="newblock subcontainer">
             <img src={Icon_block} className="icon" alt="block"></img>
-            <h4>New Block</h4>
+            <p>New Block</p>
           </div>
           <div className="newpage subcontainer">
             <img src={Icon_page} className="icon" alt="page"></img>
-            <h4>New Page</h4>
+            <p>New Page</p>
           </div>
         </div>
   
