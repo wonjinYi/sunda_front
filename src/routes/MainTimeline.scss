@@ -1,0 +1,10 @@
+.MainTimeline {
+    @import '../global/commonStyle.scss';
+
+    .items {
+        display : flex;
+        flex-direction : column;
+        align-items : center;
+
+    }
+}
