@@ -13,10 +13,7 @@ import "./Navigation.scss";
 //etc resource
 import Logo from "../img/sunda_logo.png";
 import Icon_search from "../img/icon/search_white.png";
-import Icon_create from "../img/icon/create.png";
-import Icon_bell from "../img/icon/bell.png"
-import Icon_block from "../img/icon/block.png";
-import Icon_page from "../img/icon/page.png";
+
 
 class Navigation extends React.Component {
     state = {
