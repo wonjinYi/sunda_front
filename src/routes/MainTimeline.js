@@ -8,7 +8,7 @@ import "./MainTimeline.scss";
 
 class MainTimeline extends React.Component{
     state = {
-        loggedin : true,
+        loggedin : false,
         username : "thisisverylongname",
         test : 123,
     };
@@ -20,6 +20,7 @@ class MainTimeline extends React.Component{
         return (
             <div className="MainTimeline">
                 <Navigation loggedin={loggedin} username={username}/>
+                <h1>{loggedin}</h1>
                 <div className="items">
                     <SundaItem itemType="block" title="달과달의소리" artist="moremi" curator="jjoriping" comment="아, lnx적분하고싶다" createdAt="01:53" />
                     <SundaItem itemType="block" title="달과달의소리" artist="moremi" curator="jjoriping" comment="아, lnx적분하고싶다" createdAt="01:53" />
