@@ -13,18 +13,29 @@ import Navigation from "./components/Navigation";
 // style sheets
 import './App.css';
 
-// -------------- Import is end
+// -------------- Import end
 
-function App() {
-  return ( 
-    <div className="App">
+
+
+class App extends React.Component {
+  state = {
+    loggedin : true,
+    username : "thisisverylongname",
+    test : 123,
+  };
+
+  render() {
+    const { loggedin, username, test } = this.state;
+    return ( 
       <HashRouter>
+        <Navigation loggedin={loggedin} username={username} />
         <Route path="/" exact={true} component={MainTimeline}/>
         <Route path="/landing" exact={true} component={Landing} />
         <Route path="/signup" exact={true} component={Signup} />
       </HashRouter>
-    </div>
-  );
-}
+    );
+  }
 
+}
+//        
 export default App;

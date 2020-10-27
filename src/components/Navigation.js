@@ -67,8 +67,8 @@ class Navigation extends React.Component {
                         </button>
                     </div>
                     <div className="menu">
-                        <Link className="rect-nofill center-align">Sign up</Link>
-                        <Link className="rect-fill center-align">Sign in</Link>
+                        <Link className="rect-nofill center-align" to="/signup">Sign up</Link>
+                        <Link className="rect-fill center-align" to="/signin">Sign in</Link>
                     </div>
                 </div>
             );
@@ -79,8 +79,8 @@ class Navigation extends React.Component {
 }
 
 Navigation.propTypes = {
-    loggedin : PropTypes.bool.isRequired,
-    username : PropTypes.string,
+    //loggedin : PropTypes.bool.isRequired,
+    //username : PropTypes.string,
 };
 
 export default Navigation;
