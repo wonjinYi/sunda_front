@@ -36,7 +36,10 @@
             height : $el-height;
             width : 80px;
 
-            border : 0;
+            border-width : 0;
+            border-top : 2px solid $sunda-pink;
+            border-bottom : 2px solid $sunda-pink;
+
             background-color : #FFCCCC;
             text-align-last: center;
 
@@ -59,6 +62,8 @@
 
             background-color: #FFEBEB;
             border-width : 0;
+            border-top : 2px solid $sunda-pink;
+            border-bottom : 2px solid $sunda-pink;
 
             &:focus {
                 outline: none;
