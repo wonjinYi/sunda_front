@@ -19,7 +19,7 @@ import './App.css';
 
 class App extends React.Component {
   state = {
-    loggedin : true,
+    loggedin : false,
     username : "thisisverylongname",
     test : 123,
   };
