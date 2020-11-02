@@ -1,0 +1,23 @@
+.Signup {
+    @import '../global/commonStyle.scss';
+
+    display : flex;
+    flex-direction : column;
+
+    justify-content: center;
+    align-items : center;
+
+    .icon {
+        width : 50px;
+        height : auto;
+
+        margin-right : 10px;
+    }
+
+    .with-sunda-account {
+        .new-account {
+            box-sizing : border-box;
+            width : 300px;
+        }
+    }
+}
