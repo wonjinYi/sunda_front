@@ -32,7 +32,7 @@ class Navigation extends React.Component {
         if(loggedin){
             return (
                 <div className="nav">
-                    <div className="logo"><img src={Logo} alt="sunda logo"></img></div>
+                    <Link to="/" className="logo"><img src={Logo} alt="sunda logo"></img></Link>
                     <div className="search">
                         <select className="category">
                             <option value="title">Title</option>
@@ -54,7 +54,7 @@ class Navigation extends React.Component {
         } else {
             return (
                 <div className="nav">
-                    <div className="logo"><img src={Logo} alt="sunda logo"></img></div>
+                    <Link to="/" className="logo"><img src={Logo} alt="sunda logo"></img></Link>
                     <div className="search">
                         <select className="category">
                             <option value="title">Title</option>
