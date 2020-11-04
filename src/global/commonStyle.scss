@@ -5,6 +5,8 @@ $sunda-semipink : #FFCACA;
 $sunda-grey : #7B7B7B;
 $sunda-semigrey : #B0B0B0;
 
+$navigation-height : 72px;
+
 * {
     color : $sunda-grey;
     font-family: 'Nanum Gothic', sans-serif;
@@ -38,7 +40,7 @@ a {
     background-color : $sunda-pink;
     
     color : white;
-
+    text-align : center;
     transition : all 0.5s;
     &:hover {
         background-color : white;
