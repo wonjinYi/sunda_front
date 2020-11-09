@@ -26,12 +26,13 @@ class App extends React.Component {
 
   render() {
     const { loggedin, username, test } = this.state;
-    return ( 
+    return (
       <HashRouter>
         <Navigation loggedin={loggedin} username={username} />
         <Route path="/" exact={true} component={MainTimeline}/>
         <Route path="/landing" exact={true} component={Landing} />
         <Route path="/signup" exact={true} component={Signup} />
+        <Route path="/signin" exact={true} component={Signin} />
       </HashRouter>
     );
   }
