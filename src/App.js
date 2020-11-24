@@ -6,6 +6,7 @@ import { HashRouter, Route } from "react-router-dom";
 import Landing from "./routes/Landing";
 import MainTimeline from "./routes/MainTimeline";
 import Signup from "./routes/Signup";
+import Signin from "./routes/Signin";
 
 // components
 import Navigation from "./components/Navigation";
