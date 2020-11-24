@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
-import "./Signup.scss";
+import "./Signin.scss";
 
 import icon_daldalso from "../img/icon/sns_daldalso.png";
 import icon_google from "../img/icon/sns_google.png";

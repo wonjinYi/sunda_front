@@ -1,0 +1,54 @@
+.Signin {
+    @import '../global/commonStyle.scss';
+
+    $space : 30px;
+
+    height : calc(100vh - #{$navigation-height});
+    
+    display : flex;
+    flex-direction : column;
+
+    justify-content: center;
+    align-items : center;
+
+    .icon {
+        width : 50px;
+        height : auto;
+
+        margin-right : 10px;
+    }
+    .caption {
+        padding-bottom : 10px;
+    }
+    
+    .with-other-services {
+        padding-bottom : $space;
+        border-bottom : 2px solid $sunda-pink;
+    }
+
+    .with-sunda-account {
+        padding-top : $space;
+        padding-bottom : calc(#{$space} / 2);
+        .new-account {
+            box-sizing : inherit;
+            width : 300px;
+        }
+    }
+
+    ////////////////////////////////////////////
+
+    .title{
+        font-size : 30px;
+    }
+    .letter {
+        text-align : center;
+        padding : $space;
+        p{
+            padding : $space;
+        }
+
+    }
+    .end-signup {
+        padding : 20px 40px;
+    }
+}
