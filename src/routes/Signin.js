@@ -26,7 +26,10 @@ class Signin extends React.Component {
                     </div>
                 </div>
                 <div className="with-sunda-account">
-                    <p className="caption">Sign inp with SUNDA account</p>
+                    <p className="caption">Sign in with SUNDA account</p>
+                    <input className="inputbox" type="text" placeholder="email"></input>
+                    <input className="inputbox" type="password" placeholder="password"></input>
+                    <p className="button-fill new-account">Sign in</p>
                 </div>
             </div>
         );
